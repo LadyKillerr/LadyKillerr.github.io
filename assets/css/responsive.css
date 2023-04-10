@@ -1,0 +1,216 @@
+
+  /* BREAK POINT */
+        /* PC */
+        @media screen 
+        and (min-width:64em){
+            .ti-menu{
+                clip-path: circle(0);
+            }
+        }
+        /* tablet */
+        @media screen 
+        and (min-width: 46.25em)
+        and (max-width:63.9375em)
+        {
+            .place-body{
+                background-color: white;
+                position:relative;
+                padding:16px;
+            }
+            
+            .ti-menu{
+                display:none;
+            }
+        }
+        /* tablet and mobile */
+        @media screen 
+        and (max-width: 63.9375em){
+            #nav .subnav a{
+                padding: 8px 10px;
+                font-size: 18px;
+            }
+            .place-buy-btn{
+                font-size:15px;
+                text-decoration:none;
+                background-color:black;
+                color: white;
+                padding: 15px 25px 15px 25px;
+            }
+            #content .info_input{
+                padding:14px;
+            }
+            #content .info_input2{
+                padding:14px;
+            }
+            #content .send-btn{
+                padding: 14px 28px;
+                margin:15px 12px 0 0 ;
+            }
+            .social-icon{
+                margin:0 8px;
+            }
+            .admin-profile{
+                padding: 12px 0px;
+                display:inline-block;
+            }
+            /* for real small phones */
+            @media screen and (max-width:23.3125em){
+            #content .send-btn{
+                    margin:15px 5.5px 0px 0px;
+            }
+            #content .info_input{
+               margin-top: 20px;
+            }
+            #content .info_input2{
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            #content .content-section3{
+                height: 720px;
+            }
+            #content .content-section2{
+                min-height:1700px!important;
+            }
+            
+            
+            }
+        }
+        /* mobile */
+        @media(max-width: 46.1875em){
+            #nav{
+                display: block;
+            }
+            #nav >li {
+                display:block;
+            }
+            #nav >li:first-child{
+                display:inline-block;
+            }
+            .ti-angle-down{
+                display:none;
+            }
+            #header{
+                height:46px;
+                background-color: black;
+                position:fixed;
+                display:inline-block;
+                width:100%;
+                top:0;
+                z-index:1;
+                overflow:hidden;
+            }
+            #header .mb-menu-btn {
+                padding: 0 21px;
+                float:right;
+                position:absolute;
+                top:0;
+                right:0;
+            }
+            #header .mb-menu-btn:hover {
+                background-color:#ccc;
+                color: black;
+            }
+            #header .mb-menu-btn:hover .ti-menu {
+                background-color:#ccc;
+                color: black;
+            }
+            #header .menu-icon{
+                color :#fff;
+                font-size: 20px;
+                line-height: 46px;
+            }
+            /* Khi dung dth thi bo nut search */
+            #header .search-btn {
+                float: right;
+                padding: 0 21px;
+                display:none;
+            }
+            /* responsive: hide search button(o tren) */
+            #content .member-item{
+                width:100%;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                height:320px;
+            }
+            #content .content-section{
+                position:relative;
+                width:800px;
+                max-width:100%;
+                padding: 74px 16px 64px 16px ;
+                text-align: center;
+                height:100%;
+                min-height:1500px;
+                margin:auto;
+                overflow: hidden;
+            }
+            #content .place-items {
+                width:255px;
+                max-width:100%;
+                height:auto;
+                padding: 18px 8px;
+                float:left;
+                width: 100%;
+             
+            }
+            #content .content-section2{
+                position:relative;
+                width:800px;
+                max-width:100%;
+                padding: 74px 16px 64px 16px ;
+                height:100%;
+                min-height:1800px;
+                margin:auto;
+                overflow: hidden;
+            }
+            .place-buy-btn{
+                float:right;
+                position:absolute;
+            }
+            
+            /* buy tickets btn modifier */
+            @media screen
+            and   (max-width: 46.125em)
+            and   (min-width: 27.25em){
+                .place-buy-btn{
+                position:absolute;
+                margin-top:22px;
+            }
+        }
+            /* contact form on mobile */
+            @media screen
+            and   (max-width: 43.5em)
+            and   (min-width: 12.5em){
+                .contact-number{
+                    width:100%;
+                    max-width:100%;
+                    padding: 0px 20px;
+                    height: 120px!important;
+                }
+                #content .contact-container{
+                    padding-top: 5px;
+                }
+                .contact-info{
+                    padding-left:36px;
+                    width:100%;
+                    margin-top:15px;
+                }
+                .contact-name{
+                    display:block;
+                    width:105%;
+                }
+                .contact-email{
+                    display:block;
+                    width:105%;
+                }
+                .content-section3{
+                position:relative;
+                width:800px;
+                max-width:100%;
+                padding: 74px 16px 64px 16px ;
+                height:100%;
+                min-height:600px;
+                margin:auto;
+                overflow: hidden;
+                }
+            }
+        }
