@@ -1,5 +1,4 @@
 
-Trang web nằm ở đây
-bao responsive
+Trang web nằm ở đây và đã bao gồm responsive
 
-# https://ladykillerr.github.io/demo-web-ban-nhac/
+# https://ladykillerr.github.io/The-Band/
