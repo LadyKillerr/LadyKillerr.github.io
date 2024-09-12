@@ -165,9 +165,8 @@ background-color: aliceblue;
     size:15px;
 }
 
-
 #slider{
-   background: url(../img/chillies_band2.webp) top center / cover no-repeat;
+   background: url(../img/thumbnails.png) top center / cover no-repeat;
    margin-top: 40px;
    padding-top: 47% ;
 }
@@ -232,6 +231,8 @@ background-color: aliceblue;
 }
 
 #content .member-list{
+    display:flex;
+    justify-content: space-between;
     width:800px;
     max-width:100%;
     height: auto;
@@ -239,9 +240,13 @@ background-color: aliceblue;
     overflow: hidden;
 }
 #content .member-item{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
     float:left;
-    height:320px;
-    width: 33.3%;
+    height:370px;
+    width: 30%;
     text-align:center;
 }
 

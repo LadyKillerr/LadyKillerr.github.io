@@ -126,11 +126,19 @@
                 display:none;
             }
             /* responsive: hide search button(o tren) */
+            #content .member-list {
+                display:flex ;
+                flex-direction: column;
+                justify-content: space-between;
+                padding-bottom: 30px;
+                height:1400px;
+            }
+
             #content .member-item{
                 width:100%;
                 margin-top: 15px;
                 margin-bottom: 15px;
-                height:320px;
+                height:370px;
             }
             #content .content-section{
                 position:relative;
